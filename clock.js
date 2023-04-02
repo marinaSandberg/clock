@@ -5,7 +5,7 @@
 
     let year = d.getFullYear();
     let month = d.getMonth() + 1;
-    let day = d.getDay();
+    let day = d.getDate();
     let hours = d.getHours();
     let min = d.getMinutes();
     let sec = d.getSeconds();
