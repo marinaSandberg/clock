@@ -11,17 +11,23 @@
         body {
             font-family: tahoma;
             font-size: 14px;
-            margin: 10rem;
+            margin: 150px 500px;
+            padding: none;
+            box-sizing: border-box;
+            text-decoration: none;
         }
 
-        div {
+        #container {
             background-color: rgb(167, 221, 221);
             border-radius: 1rem;
-            padding: 1rem 3rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+
+        div > div {
+            padding: 0.5rem 0rem 2rem 0rem;
         }
 
         h1 {
@@ -31,7 +37,7 @@
     </style>
 </head>
 <body>
-    <div>
+    <div id="container">
         <h1>Date</h1>
         <div id="date"></div>
         <h1>Time</h1>
